@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from '@emailjs/browser';
 
 const contactData = {
   phone: ["+55 21 998497373"],
@@ -19,6 +20,17 @@ function Contact() {
 
   const submitHandler = (event) => {
     event.preventDefault();
+    emailjs.send('service_nchpr0n','template_3nsei2f', {
+  from_name: formdata.name,
+  to_name: formdata.email,
+  message: formdata.subject,
+  reply_to: formdata.message,
+}, 'zaMW4OWoEqOJv4zWx')
+	.then((response) => {
+	   console.log('SUCCESS!', response.status, response.text);
+	}, (err) => {
+	   console.log('FAILED...', err);
+	});
     if (!formdata.name) {
       setError(true);
       setMessage("Name is required");
@@ -33,7 +45,7 @@ function Contact() {
       setMessage("Message is required");
     } else {
       setError(false);
-      setMessage("You message has been sent!!!");
+      setMessage("You message has been sent!");
     }
   };
 

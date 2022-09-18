@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import Layout2 from "../components/Layout/Layout2";
 import SectionHeading from "../components/Items/SectionHeading";
 import ServicesSection from "../components/Sections/Services";
-import PricingTable from "../components/Sections/PricingTable";
+// import PricingTable from "../components/Sections/PricingTable";
 
 function Services() {
   useEffect(() => {
@@ -16,7 +16,7 @@ function Services() {
       </section>
       <section className="shadow-blue white-bg padding">
         <SectionHeading title="Pricing table" />
-        <PricingTable />
+        {/* <PricingTable /> */}
       </section>
     </Layout2>
   );
