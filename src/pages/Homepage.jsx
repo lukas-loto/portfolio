@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Element } from "react-scroll";
 import Layout from "../components/Layout/Layout";
 import About from "../components/Sections/About";
-import Clients from "../components/Sections/Clients";
+// import Clients from "../components/Sections/Clients";
 import Herosection from "../components/Sections/Herosection";
 import SectionHeading from "../components/Items/SectionHeading";
 import Skills from "../components/Sections/Skills";
