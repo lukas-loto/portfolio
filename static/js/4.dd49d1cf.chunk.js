@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[4],{130:function(t,o,e){"use strict";e.r(o),o.default=e.p+"static/media/how-to-become-better-with-ui-design.cb9cebf5.md"}}]);
+//# sourceMappingURL=4.dd49d1cf.chunk.js.map
