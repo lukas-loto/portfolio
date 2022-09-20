@@ -63,7 +63,7 @@ const allData = [
   {
     id: 6,
     name: "Shop",
-    link: "https://mosalito.com/",
+    link: "https://shop.mosalito.com/",
     category: ["shop"],
     image: "images/portfolio/7.svg",
   },
