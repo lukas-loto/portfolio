@@ -18,75 +18,13 @@ const filters = [
     id: 4,
     name: "Landing Page",
   },
-  // {
-  //   id: 5,
-  //   name: "Design",
-  // },
-];
-
-const allData = [
-  {
-    id: 1,
-    name: "Creative Art",
-    category: ["creative"],
-    image: "images/portfolio/1.jpg",
-    slug: "creative-art",
-  },
-  {
-    id: 2,
-    name: "Apple USB",
-    category: ["creative", "design"],
-    image: "images/portfolio/2.jpg",
-    slug: "apple-usb",
-  },
-  {
-    id: 3,
-    name: "Work Space",
-    category: ["branding"],
-    image: "images/portfolio/3.jpg",
-    slug: "work-space",
-  },
-  {
-    id: 4,
-    name: "Creative Bulb",
-    category: ["creative"],
-    image: "images/portfolio/4.jpg",
-    slug: "creative-bulb",
-  },
   {
     id: 5,
-    name: "Iphone 8",
-    category: ["branding", "art"],
-    image: "images/portfolio/5.jpg",
-    slug: "iphone-8",
+    name: "Design",
   },
   {
     id: 6,
-    name: "Minimal Art",
-    category: ["design", "creative"],
-    image: "images/portfolio/6.jpg",
-    slug: "minimal-art",
-  },
-  {
-    id: 7,
-    name: "Creative Art",
-    category: ["creative"],
-    image: "images/portfolio/1.jpg",
-    slug: "creative-art",
-  },
-  {
-    id: 8,
-    name: "Apple USB",
-    category: ["creative", "design"],
-    image: "images/portfolio/2.jpg",
-    slug: "apple-usb",
-  },
-  {
-    id: 9,
-    name: "Work Space",
-    category: ["branding"],
-    image: "images/portfolio/3.jpg",
-    slug: "work-space",
+    name: "Blog",
   },
 ];
 

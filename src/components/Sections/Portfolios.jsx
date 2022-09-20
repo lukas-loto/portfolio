@@ -18,10 +18,14 @@ const filters = [
     id: 4,
     name: "Landing Page",
   },
-  // {
-  //   id: 5,
-  //   name: "Design",
-  // },
+  {
+    id: 5,
+    name: "Design",
+  },
+  {
+    id: 6,
+    name: "Blog",
+  },
 ];
 
 const allData = [
@@ -87,6 +91,27 @@ const allData = [
     link: "https://projetos.mosalito.com/portfolio",
     category: ["landing page"],
     image: "images/portfolio/12.svg",
+  },
+  {
+    id: 9,
+    name: "Design",
+    link: "https://www.youtube.com/watch?v=Ztc-7unmgMA&t=2s",
+    category: ["design"],
+    image: "images/portfolio/13.svg",
+  },
+  {
+    id: 9,
+    name: "Blog",
+    link: "https://blog.greenmainframe.com/",
+    category: ["blog"],
+    image: "images/portfolio/14.svg",
+  },
+  {
+    id: 9,
+    name: "Business Site",
+    link: "https://sibimpact.com/",
+    category: ["business site"],
+    image: "images/portfolio/15.svg",
   },
 ];
 
