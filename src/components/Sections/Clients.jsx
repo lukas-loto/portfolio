@@ -4,23 +4,67 @@ import Slider from "react-slick";
 const clientsData = [
   {
     id: 1,
-    image: "images/clients/1.png",
+    image: "images/clients/as.svg",
   },
   {
     id: 2,
-    image: "images/clients/2.png",
+    image: "images/clients/as1.svg",
   },
   {
     id: 3,
-    image: "images/clients/3.png",
+    image: "images/clients/as2.svg",
   },
   {
     id: 4,
-    image: "images/clients/4.png",
+    image: "images/clients/as4.svg",
   },
   {
     id: 5,
-    image: "images/clients/2.png",
+    image: "images/clients/as5.svg",
+  },
+  {
+    id: 6,
+    image: "images/clients/as6.svg",
+  },
+  {
+    id: 7,
+    image: "images/clients/as7.svg",
+  },
+  {
+    id: 8,
+    image: "images/clients/as8.svg",
+  },
+  {
+    id: 9,
+    image: "images/clients/as9.svg",
+  },
+  {
+    id: 10,
+    image: "images/clients/as10.svg",
+  },
+  {
+    id: 11,
+    image: "images/clients/as11.svg",
+  },
+  {
+    id: 12,
+    image: "images/clients/as12.svg",
+  },
+  {
+    id: 13,
+    image: "images/clients/as13.svg",
+  },
+  {
+    id: 14,
+    image: "images/clients/as14.svg",
+  },
+  {
+    id: 15,
+    image: "images/clients/as15.svg",
+  },
+  {
+    id: 16,
+    image: "images/clients/as16.svg",
   },
 ];
 
@@ -36,7 +80,7 @@ function Clients() {
     autoplaySpeed: 3000,
   };
   return (
-    <section className="shadow-dark background-blue color-white padding-50">
+    <section className="shadow-dark white-bg color-white padding-50">
       <h2 className="d-none">Clients</h2>
 
       <div className="clients-wrapper">

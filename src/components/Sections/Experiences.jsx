@@ -25,17 +25,17 @@ const experiencesData = [
   },
   {
     id: 4,
-    year: "2021 - 2018",
-    degree: "Technical education in Software Development",
-    content:
-      "Study of programming languages ​​and IT in Federal Center for Technological Education of Rio de Janeiro",
-  },
-  {
-    id: 5,
     year: "2021",
     degree: "Back-end Developer at CEFET/RJ",
     content:
       "API development in Node.Js and Python to generate electronic timesheets for Colégio e Faculdade Federal.",
+  },
+  {
+    id: 5,
+    year: "2021 - 2018",
+    degree: "Technical education in Software Development",
+    content:
+      "Study of programming languages ​​and IT in Federal Center for Technological Education of Rio de Janeiro",
   },
 ];
 

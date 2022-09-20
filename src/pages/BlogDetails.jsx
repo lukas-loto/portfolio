@@ -31,15 +31,14 @@ function BlogDetails(props) {
     window.scrollTo(0, 0);
   }, []);
 
-  const disqusShortname = "bako-1"; //found in your Disqus.com dashboard
+  const disqusShortname = "lukas-1";
   const disqusConfig = {
-    url: "https://jthemes.net/themes/react/bako", //Homepage link of this site.
+    url: "https://www.linkedin.com/in/lukas-domingos/", //Homepage link of this site.
     identifier: blogId,
     title: blogFile,
   };
 
   // document.body.classList.add("dark");
-  //Uncomment the above line if you use dark version
 
   return (
     <Layout>

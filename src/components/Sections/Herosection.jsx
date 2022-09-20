@@ -4,7 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 const herosectionData = {
   name: "Lukas Domingos",
   aboutMe:
-    "Do it yourself, disciplined, proactive and uncompromising defender of freedom.",
+    "Do it yourself, disciplined, proactive and leader in SFL.",
 };
 
 function Herosection() {

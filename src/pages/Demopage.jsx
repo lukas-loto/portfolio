@@ -13,8 +13,8 @@ function Demopage() {
       >
         <div className="container">
           <div className="demo-content">
-            <h1>Bako</h1>
-            <h4>React Portfolio Template</h4>
+            <h1>Portfolio</h1>
+            <h4>React Portfolio - Lukas</h4>
           </div>
         </div>
         <div className="overlay"></div>

@@ -18,10 +18,10 @@ const filters = [
     id: 4,
     name: "Landing Page",
   },
-  {
-    id: 5,
-    name: "Design",
-  },
+  // {
+  //   id: 5,
+  //   name: "Design",
+  // },
 ];
 
 const allData = [
