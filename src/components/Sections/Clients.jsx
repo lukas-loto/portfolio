@@ -66,6 +66,10 @@ const clientsData = [
     id: 16,
     image: "images/clients/as16.svg",
   },
+  {
+    id: 17,
+    image: "images/clients/as17.svg",
+  },
 ];
 
 function Clients() {
