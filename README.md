@@ -1,5 +1,5 @@
-Portfolio of Lukas
+# Portfolio of Lukas
 
-Este portfolio possivelmente estará desatualizado. Em caso de dúvidas, envie um e-mail para lukas-domingos1@hotmail.com.
+This portfolio is possibly out of date. If you have any questions, send an email to lukas-domingos1@hotmail.com.
 
-O autor é apaixonado por tecnologia e é um defensor intransigente das liberdades e acredita que o segredo da saberia é o aprendizado constante. 
+The author is passionate about technology and is an uncompromising defender of freedoms and believes that the secret of wisdom is constant learning.
