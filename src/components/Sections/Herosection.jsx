@@ -43,7 +43,7 @@ function Herosection() {
           offset={50}
           className="btn btn-border-light btn-lg"
         >
-          <i className="icon-envelope"></i>Hire me
+          <i className="icon-envelope"></i>Contact me
         </ScrollLink>
       </div>
       <div className="overlay"></div>
