@@ -11,7 +11,7 @@ function Herosection() {
   return (
     <section
       className="hero background parallax shadow-dark d-flex align-items-center"
-      style={{ backgroundImage: "url(/images/1656966109144.jpg)" }}
+      style={{ backgroundColor: "#576DE3" }}
     >
       <div className="cta mx-auto mt-2">
         <h1 className="mt-0 mb-4">

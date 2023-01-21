@@ -63,7 +63,7 @@ function Header({ toggleHeader, toggleHandler }) {
         </button>
         <div className="header-inner d-flex align-items-start flex-column">
           <Link to="/">
-            <img src={headerData.imageThumb} alt={headerData.name} />
+            <img src={headerData.imageThumb} alt={headerData.name} width="100" />
           </Link>
           <Link to="/" className="site-title dot mt-3">
             {headerData.name}
