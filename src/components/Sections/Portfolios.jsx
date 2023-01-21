@@ -60,7 +60,7 @@ const allData = [
   {
     id: 5,
     name: "Business Site",
-    link: "https://webera.dev/",
+    link: "https://webera.mosalito.com/",
     category: ["business site"],
     image: "images/portfolio/6.svg",
   },
@@ -116,9 +116,16 @@ const allData = [
   {
     id: 9,
     name: "Business Site",
-    link: "https://beerwiththeboss.com/",
+    link: "https://beerwiththeboss.mosalito.com/",
     category: ["business site"],
     image: "images/portfolio/16.svg",
+  },
+  {
+    id: 9,
+    name: "Business Site",
+    link: "https://webera.dev/",
+    category: ["business site"],
+    image: "images/portfolio/17.svg",
   },
 ];
 
