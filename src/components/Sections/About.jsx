@@ -2,7 +2,7 @@ import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 
 const aboutData = {
-  cvpath: "media/Currículo EN.pdf", // link do pdf
+  cvpath: "media/CURRICULO EN.pdf",
   image: "images/logo-image.svg",
   name: "Lukas Domingos",
   location: "Rio de Janeiro, BR",
@@ -35,7 +35,7 @@ function About() {
             </p>
           </div>
         </div>
-        <a href={aboutData.cvpath} className="btn btn-default mr-3">
+        <a href={aboutData.cvpath} className="btn btn-default mr-3" target="_blank" rel="noopener noreferrer">
           <i className="icon-cloud-download"></i>Download CV
         </a>
         <ScrollLink
