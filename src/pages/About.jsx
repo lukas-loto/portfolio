@@ -3,7 +3,6 @@ import Layout2 from "../components/Layout/Layout2";
 import SectionHeading from "../components/Items/SectionHeading";
 import AboutSection from "../components/Sections/About";
 import Skills from "../components/Sections/Skills";
-import Funfacts from "../components/Sections/Funfacts";
 import Clients from "../components/Sections/Clients";
 
 function About() {
@@ -21,8 +20,6 @@ function About() {
         <SectionHeading title="My skills" />
         <Skills />
       </section>
-
-      <Funfacts />
 
       <Clients />
     </Layout2>

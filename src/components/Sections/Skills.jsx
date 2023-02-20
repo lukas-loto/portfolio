@@ -3,8 +3,6 @@ import TrackVisibility from "react-on-screen";
 import Skill from "../Items/Skill";
 
 const skillData = {
-  skillContent:
-    "I am passionate about technology and these are my main skills.",
   progressData: [
     {
       id: 1,
@@ -43,7 +41,6 @@ function Skills() {
   return (
     <>
       <p className="mb-0">{skillData.skillContent}</p>
-      <div className="mt-5">
         <div className="row -mt-50">
           {skillData.progressData.map((progress) => (
             <div className="col-md-6 mt-50" key={progress.id}>
@@ -53,7 +50,6 @@ function Skills() {
             </div>
           ))}
         </div>
-      </div>
     </>
   );
 }

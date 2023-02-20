@@ -4,7 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 const herosectionData = {
   name: "Lukas Domingos",
   aboutMe:
-    "Do it yourself, disciplined, proactive and leader in SFL.",
+    "Full Stack developer from Brazil for 4 years. I have rich experience in Web Development and am very experienced in WordPress.",
 };
 
 function Herosection() {

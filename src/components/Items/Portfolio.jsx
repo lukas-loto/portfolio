@@ -9,7 +9,7 @@ function Portfolio({ portfolio: { link, name, category, image } }) {
           <span className="term">{category.join(",  ")}</span>
         </div>
         <span className="plus-icon">+</span>
-        <div className="thumb">
+        <div className="thumb" style={{height: "170px"}}>
           <img src={image} alt={name} />
           <div className="mask"></div>
         </div>

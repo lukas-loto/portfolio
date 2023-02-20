@@ -9,17 +9,13 @@ const aboutData = {
   birthday: "26 June, 2002",
   email: "lukas-domingos1@hotmail.com",
   aboutMe:
-    "I'm Lukas Domingos, Full Stack developer for 4 years and Designer from Brazil. I have rich experience in Web Development and am very experienced in WordPress.",
+    "Do it yourself, disciplined, proactive and leader in SFL.",
 };
 
 function About() {
   return (
     <div className="row">
-      <div className="col-md-3">
-        <img src={aboutData.image} alt={aboutData.name} width={150} height={150}/>
-      </div>
-      <div className="col-md-9">
-        <h2 className="mt-4 mt-md-0 mb-4">Hello,</h2>
+      <div className="col-md-12">
         <p className="mb-0">{aboutData.aboutMe}</p>
         <div className="row my-4">
           <div className="col-md-6">

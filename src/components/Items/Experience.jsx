@@ -3,7 +3,7 @@ import React from "react";
 function Experience({ experience: { year, degree, content } }) {
   return (
     <div className="entry">
-      <div className="title">
+      <div className="title text-center">
         <span>{year}</span>
       </div>
       <div className="body">

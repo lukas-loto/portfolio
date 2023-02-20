@@ -6,11 +6,9 @@ import Clients from "../components/Sections/Clients";
 import Herosection from "../components/Sections/Herosection";
 import SectionHeading from "../components/Items/SectionHeading";
 import Skills from "../components/Sections/Skills";
-import Funfacts from "../components/Sections/Funfacts";
 import Services from "../components/Sections/Services";
 import Experiences from "../components/Sections/Experiences";
 import Portfolios from "../components/Sections/Portfolios";
-// import PricingTable from "../components/Sections/PricingTable";
 import Contact from "../components/Sections/Contact";
 
 function Homepage() {
@@ -37,10 +35,6 @@ function Homepage() {
         </section>
       </Element>
 
-      <Element name="section-funfacts">
-        <Funfacts />
-      </Element>
-
       <Element name="section-services">
         <section className="shadow-blue white-bg padding">
           <SectionHeading title="Services" />
@@ -61,13 +55,6 @@ function Homepage() {
           <Portfolios />
         </section>
       </Element>
-
-      {/* <Element name="section-pricing">
-        <section className="shadow-blue white-bg padding">
-          <SectionHeading title="Pricing table" />
-          <PricingTable />
-        </section>
-      </Element> */}
 
       <Element name="section-clients">
         <Clients />

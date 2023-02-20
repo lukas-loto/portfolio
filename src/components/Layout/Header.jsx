@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link, useRouteMatch } from "react-router-dom";
 import {
-  FaInstagram,
+  FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
 
@@ -12,7 +12,7 @@ const headerData = {
   imageThumb: "/images/logo-image.svg",
   social: {
     linkedln: "https://www.linkedin.com/in/lukas-domingos/",
-    instagram: "https://www.instagram.com/",
+    github: "https://github.com/lukas-loto/",
   },
 };
 
@@ -186,10 +186,10 @@ function Header({ toggleHeader, toggleHandler }) {
 
           <div className="footer mt-auto">
             <ul className="social-icons list-inline">
-              {!headerData.social.instagram ? null : (
+              {!headerData.social.github ? null : (
                 <li className="list-inline-item">
-                  <a href={headerData.social.instagram}>
-                    <FaInstagram />
+                  <a href={headerData.social.github}>
+                    <FaGithub />
                   </a>
                 </li>
               )}

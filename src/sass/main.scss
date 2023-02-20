@@ -112,6 +112,16 @@ section {
   }
 }
 
+@media only screen and (min-width: 991px) and (max-width: 1200px){
+  .service-item {
+    min-height: 250px;
+    }
+
+    form.contact-form{
+      margin-left: 50px;
+    }
+}
+
 .service-item {
   border: solid 1px #efefef;
   border-radius: 10px;
@@ -138,6 +148,12 @@ section {
 .timeline {
   position: relative;
   padding: 70px 0;
+}
+
+@media only screen and (min-width: 1201px) {
+  .timeline {
+    left: -30px;
+  }
 }
 
 .timeline-line {
@@ -206,7 +222,7 @@ section {
   margin: 0 0 6em;
   float: right;
   width: 80%;
-  padding-left: 60px;
+  padding-left: 30px;
   p {
     margin-bottom: 0;
   }
