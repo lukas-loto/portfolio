@@ -4,7 +4,7 @@ function SectionHeading({ title }) {
   return (
     <>
       <h3 className="section-title">{title}</h3>
-      <div className="spacer" data-height="70"></div>
+      <div className="spacer" data-height="50"></div>
     </>
   );
 }

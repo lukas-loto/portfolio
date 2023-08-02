@@ -6,7 +6,7 @@ const skillData = {
   progressData: [
     {
       id: 1,
-      name: "Sr. Wordpress",
+      name: "Wordpress",
       percentage: 100,
     },
     {
@@ -17,22 +17,22 @@ const skillData = {
     {
       id: 3,
       name: "Backend",
-      percentage: 90,
+      percentage: 100,
     },
     {
       id: 4,
       name: "Frontend",
-      percentage: 90,
+      percentage: 100,
     },
     {
       id: 5,
       name: "UI/UX",
-      percentage: 80,
+      percentage: 100,
     },
     {
       id: 6,
       name: "Agile",
-      percentage: 80,
+      percentage: 100,
     },
   ],
 };
@@ -41,15 +41,15 @@ function Skills() {
   return (
     <>
       <p className="mb-0">{skillData.skillContent}</p>
-        <div className="row -mt-50">
-          {skillData.progressData.map((progress) => (
-            <div className="col-md-6 mt-50" key={progress.id}>
-              <TrackVisibility once>
-                <Skill progress={progress} />
-              </TrackVisibility>
-            </div>
-          ))}
-        </div>
+      <div className="row -mt-50">
+        {skillData.progressData.map((progress) => (
+          <div className="col-md-6 mt-50" key={progress.id}>
+            <TrackVisibility once>
+              <Skill progress={progress} />
+            </TrackVisibility>
+          </div>
+        ))}
+      </div>
     </>
   );
 }

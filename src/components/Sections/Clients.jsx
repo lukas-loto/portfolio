@@ -84,7 +84,7 @@ function Clients() {
     autoplaySpeed: 3000,
   };
   return (
-    <section className="shadow-dark white-bg color-white padding-50">
+    <section className="shadow-dark white-bg color-white padding-clients">
       <h2 className="d-none">Clients</h2>
 
       <div className="clients-wrapper">

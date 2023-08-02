@@ -108,27 +108,13 @@ const allData = [
   },
   {
     id: 12,
-    link: "https://projetos.jorlans.com/ilustracao/",
-    name: "Shop",
-    category: ["shop"],
-    image: "images/portfolio/2.svg",
-  },
-  {
-    id: 13,
-    name: "Business Site",
-    link: "https://beerwiththeboss.jorlans.com/",
-    category: ["business site"],
-    image: "images/portfolio/16.svg",
-  },
-  {
-    id: 14,
     name: "Shop",
     link: "https://projetos.jorlans.com/",
     category: ["shop"],
     image: "images/portfolio/3.svg",
   },
   {
-    id: 15,
+    id: 13,
     link: "https://projetos.jorlans.com/ilustracao4/",
     name: "Shop",
     category: ["shop"],
@@ -150,7 +136,6 @@ function Portfolios() {
   }, [getAllItems]);
 
   const handleChange = (e) => {
-    console.log(e.target.value);
     e.preventDefault();
     let targetFilter = e.target.value
       ? e.target.value.toLowerCase()
@@ -161,12 +146,15 @@ function Portfolios() {
       tempData = getAllItems.filter((data) => data.id <= dataVisibleCount);
     } else {
       tempData = getAllItems.filter((data) => {
-        return (
-          data.category.includes(targetFilter) && data.id <= dataVisibleCount
-        );
+        return data.category.includes(targetFilter) && data.id;
       });
     }
     setVisibleItems(tempData);
+    if (targetFilter !== "all projects") {
+      setNoMorePost(true);
+    } else {
+      setNoMorePost(false);
+    }
   };
 
   const handleLoadmore = (e) => {
@@ -187,6 +175,14 @@ function Portfolios() {
       }
     }
   };
+
+  useEffect(() => {
+    let tempCount = dataVisibleCount + dataIncrement;
+
+    if (tempCount > getAllItems.length) {
+      setNoMorePost(true);
+    }
+  }, [dataVisibleCount, getAllItems, dataIncrement]);
 
   return (
     <>

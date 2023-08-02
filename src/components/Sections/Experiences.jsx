@@ -5,23 +5,20 @@ const experiencesData = [
   {
     id: 1,
     year: "2022 - Present",
-    degree: "Full Stack and WordPress Developer at the American Webera company", 
-    content:
-      "Full Stack Developer at the American Webera company",
+    degree: "Full Stack and WordPress Developer at the American Webera company",
+    content: "Full Stack Developer at the American Webera company",
   },
   {
     id: 2,
     year: "2022 - 2018",
     degree: "WordPress Freelance",
-    content:
-    "Freelancer at Workana",
+    content: "Freelancer at Workana",
   },
   {
     id: 3,
     year: "2021-2020",
     degree: "PHP and Full Stack Developer at Full Time Solutions company",
-    content:
-      "PHP and Full Stack Developer at Full Time Solutions company",
+    content: "PHP and Full Stack Developer at Full Time Solutions company",
   },
   {
     id: 4,

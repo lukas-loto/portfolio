@@ -8,8 +8,18 @@ const aboutData = {
   location: "Rio de Janeiro, BR",
   birthday: "26 June, 2002",
   email: "lukas-domingos1@hotmail.com",
-  aboutMe:
-    "Do it yourself, disciplined, proactive and leader in SFL.",
+  aboutMe: (
+    <>
+      Do it yourself, disciplined, proactive and leader in SFL. <br />
+      Passionate about technology, I live in Rio de Janeiro. I have experience
+      in: <br /> <br /> <strong>
+      - PHP, Node, Python, C#, C++, Java, SQL, Json, Git, Docker. <br />
+      - JavaScript, HTML, CSS, SASS, React, TypeScript, Bootstrap, Tailwind,
+      UI/UX. <br />
+      - Codeigniter 4, jQuery, Next, Nest, WordPress. <br />- Rest of API,
+      Webhooks. {" "} </strong>
+    </>
+  ),
 };
 
 function About() {
@@ -35,7 +45,12 @@ function About() {
             </p>
           </div>
         </div>
-        <a href={aboutData.cvpath} className="btn btn-default mr-3" target="_blank" rel="noopener noreferrer">
+        <a
+          href={aboutData.cvpath}
+          className="btn btn-default mr-3"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="icon-cloud-download"></i>Download CV
         </a>
         <ScrollLink

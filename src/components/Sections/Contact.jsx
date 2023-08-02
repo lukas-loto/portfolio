@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 const contactData = {
   phone: ["+55 21 998497373"],
@@ -20,17 +20,26 @@ function Contact() {
 
   const submitHandler = (event) => {
     event.preventDefault();
-    emailjs.send('service_nchpr0n','template_3nsei2f', {
-  from_name: formdata.name,
-  to_name: formdata.email,
-  message: formdata.subject,
-  reply_to: formdata.message,
-}, 'zaMW4OWoEqOJv4zWx')
-	.then((response) => {
-	   console.log('SUCCESS!', response.status, response.text);
-	}, (err) => {
-	   console.log('FAILED...', err);
-	});
+    emailjs
+      .send(
+        "service_nchpr0n",
+        "template_3nsei2f",
+        {
+          from_name: formdata.name,
+          to_name: formdata.email,
+          message: formdata.subject,
+          reply_to: formdata.message,
+        },
+        "zaMW4OWoEqOJv4zWx"
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+        },
+        (err) => {
+          console.log("FAILED...", err);
+        }
+      );
     if (!formdata.name) {
       setError(true);
       setMessage("Name is required");
@@ -68,7 +77,7 @@ function Contact() {
 
   return (
     <div className="row">
-      <div className="col-md-4 mb-4 mb-md-0">
+      <div className="col-md-5 mb-4 mb-md-0">
         <div className="contact-info mb-5">
           <i className="icon-phone"></i>
           <div className="details">
@@ -96,7 +105,7 @@ function Contact() {
         </div>
       </div>
 
-      <div className="col-md-8">
+      <div className="col-md-7">
         <form className="contact-form" onSubmit={submitHandler}>
           <div className="row">
             <div className="column col-md-6">
