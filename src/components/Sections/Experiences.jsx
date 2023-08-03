@@ -4,35 +4,53 @@ import Experience from "../Items/Experience";
 const experiencesData = [
   {
     id: 1,
-    year: "2022 - Present",
-    degree: "Full Stack and WordPress Developer at the American Webera company",
-    content: "Full Stack Developer at the American Webera company",
+    year: "jan 2022 - Present",
+    degree: "Full Stack and WordPress Developer at Webera",
+    content: "Remote Work - EUA",
   },
   {
     id: 2,
-    year: "2022 - 2018",
-    degree: "WordPress Freelance",
-    content: "Freelancer at Workana",
+    year: "fev 2022 - Present",
+    degree: "Full Stack Developer at Greenmainframe",
+    content: "Remote Work - EUA",
   },
   {
     id: 3,
-    year: "2021-2020",
-    degree: "PHP and Full Stack Developer at Full Time Solutions company",
-    content: "PHP and Full Stack Developer at Full Time Solutions company",
+    year: "jul 2022 - dez 2022",
+    degree: "Full Stack Developer at Mototalk",
+    content: "Remote Work - EUA",
   },
   {
     id: 4,
-    year: "2021",
-    degree: "Back-end Developer at CEFET/RJ",
-    content:
-      "API development in Node.Js and Python to generate electronic timesheets for Colégio e Faculdade Federal.",
+    year: "jan 2022 - dez 2022",
+    degree: "Full Stack Developer at SIB Impact",
+    content: "Remote Work - EUA",
   },
   {
     id: 5,
-    year: "2021 - 2018",
-    degree: "Technical education in Software Development",
+    year: "jan 2021 - apr 2022",
+    degree: "Full Stack Developer at Full Time",
+    content: "Remote Work - BR/RJ",
+  },
+  {
+    id: 6,
+    year: "jan 2021 - jan 2022",
+    degree: "Freelance",
+    content: "Remote Work - Brazil",
+  },
+  {
+    id: 7,
+    year: "jan 2020 - jan 2021",
+    degree: "Back-end Developer at CEFET/RJ",
     content:
-      "Study of programming languages ​​and IT in Federal Center for Technological Education of Rio de Janeiro",
+      "Face-to-face Work - BR/RJ",
+  },
+  {
+    id: 8,
+    year: "jan 2018 - dez 2021",
+    degree: "Technical Software Education at CEFET/RJ",
+    content:
+      "Study - BR",
   },
 ];
 

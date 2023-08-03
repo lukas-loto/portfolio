@@ -10,14 +10,18 @@ const aboutData = {
   email: "lukas-domingos1@hotmail.com",
   aboutMe: (
     <>
-      Do it yourself, disciplined, proactive and leader in SFL. <br />
-      Passionate about technology, I live in Rio de Janeiro. I have experience
-      in: <br /> <br /> <strong>
-      - PHP, Node, Python, C#, C++, Java, SQL, Json, Git, Docker. <br />
-      - JavaScript, HTML, CSS, SASS, React, TypeScript, Bootstrap, Tailwind,
-      UI/UX. <br />
-      - Codeigniter 4, jQuery, Next, Nest, WordPress. <br />- Rest of API,
-      Webhooks. {" "} </strong>
+      Do it yourself, disciplined, proactive and leader in SFL.
+      Passionate about technology, I live in Rio de Janeiro. With a proactive
+      and disciplined profile, I have always worked to provide the best
+      experience for my clients, always focusing on results. <br /> <br /> I
+      have experience in: <br /> <br />{" "}
+      <strong>
+        - PHP, Node, Python, C#, C++, Java, SQL, Json, Git, Docker. <br />
+        - JavaScript, HTML, CSS, SASS, React, TypeScript, Bootstrap, Tailwind,
+        UI/UX. <br />
+        - Codeigniter 4, jQuery, Next, Nest, WordPress. <br />- Rest of API,
+        Webhooks.{" "}
+      </strong>
     </>
   ),
 };
