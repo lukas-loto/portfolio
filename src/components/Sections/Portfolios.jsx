@@ -161,7 +161,7 @@ function Portfolios() {
     e.preventDefault();
     let tempCount = dataVisibleCount + dataIncrement;
 
-    if (tempCount > getAllItems.length) {
+    if (tempCount > getAllItems.length + 3) {
       setNoMorePost(true);
     } else {
       setDataVisibleCount(tempCount);
@@ -178,8 +178,7 @@ function Portfolios() {
 
   useEffect(() => {
     let tempCount = dataVisibleCount + dataIncrement;
-
-    if (tempCount > getAllItems.length) {
+    if (tempCount > getAllItems.length + 3) {
       setNoMorePost(true);
     }
   }, [dataVisibleCount, getAllItems, dataIncrement]);
