@@ -6,32 +6,32 @@ const skillData = {
   progressData: [
     {
       id: 1,
-      name: "Wordpress",
+      name: "Good communication",
       percentage: 100,
     },
     {
       id: 2,
-      name: "HTML & CSS",
+      name: "Proactivity",
       percentage: 100,
     },
     {
       id: 3,
-      name: "Backend",
+      name: "Hard work",
       percentage: 100,
     },
     {
       id: 4,
-      name: "Frontend",
+      name: "Team work",
       percentage: 100,
     },
     {
       id: 5,
-      name: "UI/UX",
+      name: "Meet deadline",
       percentage: 100,
     },
     {
       id: 6,
-      name: "Agile",
+      name: "Agile and Scrum",
       percentage: 100,
     },
   ],

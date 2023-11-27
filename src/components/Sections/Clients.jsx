@@ -47,14 +47,6 @@ const clientsData = [
     image: "images/clients/as11.svg",
   },
   {
-    id: 12,
-    image: "images/clients/as12.svg",
-  },
-  {
-    id: 13,
-    image: "images/clients/as13.svg",
-  },
-  {
     id: 14,
     image: "images/clients/as14.svg",
   },
@@ -64,10 +56,6 @@ const clientsData = [
   },
   {
     id: 16,
-    image: "images/clients/as16.svg",
-  },
-  {
-    id: 17,
     image: "images/clients/as17.svg",
   },
 ];

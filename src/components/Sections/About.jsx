@@ -2,7 +2,7 @@ import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 
 const aboutData = {
-  cvpath: "media/CURRICULO EN.pdf",
+  cvpath: "media/Resume-Lukas-Domingos.pdf",
   image: "images/logo-image.svg",
   name: "Lukas Domingos",
   location: "Rio de Janeiro, BR",
@@ -10,18 +10,20 @@ const aboutData = {
   email: "lukas-domingos1@hotmail.com",
   aboutMe: (
     <>
-      Do it yourself, disciplined, proactive and leader in SFL.
-      Passionate about technology, I live in Rio de Janeiro. With a proactive
-      and disciplined profile, I have always worked to provide the best
-      experience for my clients, always focusing on results. <br /> <br /> I
-      have experience in: <br /> <br />{" "}
-      <strong>
-        - PHP, Node, Python, C#, C++, Java, SQL, Json, Git, Docker. <br />
-        - JavaScript, HTML, CSS, SASS, React, TypeScript, Bootstrap, Tailwind,
-        UI/UX. <br />
-        - Codeigniter 4, jQuery, Next, Nest, WordPress. <br />- Rest of API,
-        Webhooks.{" "}
-      </strong>
+      I'm proficient in React, TypeScript and WordPress, but my technology
+      history is diverse and comprehensive - check out my professional
+      experience section for more information. <br />
+      <br />
+      Currently based in Rio de Janeiro, I'm actively seeking a new Software
+      Development position in a company that offers remote work. <br />
+      <br />
+      I specialize in PHP, WordPress, React, Node, TypeScript, JavaScript,
+      HTML5, CSS3, SASS, Bootstrap, Tailwind, CodeIgniter 4, jQuery, Docker,
+      MySQL, Git, Next and Node, and I'm passionate about creating software that
+      is robust, scalable, and user-friendly. <br />
+      <br />
+      If you're interested in connecting or have any opportunities that may be a
+      good fit, feel free to get in touch. I'd love to chat!
     </>
   ),
 };
