@@ -25,13 +25,13 @@ const filters = [
 ];
 
 const allData = [
-  {
-    id: 1,
-    name: "Business Site",
-    link: "https://sitedomedico.com/",
-    category: ["business site"],
-    image: "images/portfolio/1.png",
-  },
+  // {
+  //   id: 1,
+  //   name: "Business Site",
+  //   link: "https://sitedomedico.com/",
+  //   category: ["business site"],
+  //   image: "images/portfolio/1.png",
+  // },
   {
     id: 2,
     name: "E-commerce",
